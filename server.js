@@ -9,7 +9,7 @@ import { conMongoDb } from "./config/mongodbConfig.js";
 // TODO: 5. Connect to MongoDB
 // Use the mongoose package to establish a connection to MongoDB using the MONGO_URL from the environment file.
 // Uncomment conMongoDb();
-// conMongoDb();
+conMongoDb();
 
 // Middlewares
 app.use(express.json());
